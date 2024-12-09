@@ -32,7 +32,6 @@ h5 {
   background-image: repeating-linear-gradient(45deg, red, orange, yellow, green, blue, purple, pink);
   text-align: center;
   background-size: 800% 800%;
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 32px;
   animation: rainbow 8s linear infinite;
