@@ -23,32 +23,31 @@ body {
 }
 
 /* Headings */
-h1,
-h5,
-h6 {
+h1 {
+  font-family: 'Georgia', serif; /* Classic serif font */
+  font-size: 3rem;
+  color: #ff6347; /* Tomato color */
   text-align: center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   margin-bottom: 20px;
 }
 
-h1 {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 3rem;
-  color: #fff;
-}
-
 h5 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 1.875rem;
-  color: #fff;
-  -webkit-text-stroke: 1px #707079;
+  font-family: 'Arial', sans-serif; /* Clean sans-serif font */
+  font-size: 2rem;
+  color: #48c9b0; /* Turquoise color */
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  margin-bottom: 15px;
 }
 
 h6 {
-  font-family: 'Lucida Console', 'Courier New', monospace;
+  font-family: 'Courier New', monospace; /* Monospaced font for a distinct look */
   font-size: 1.25rem;
-  color: #fff;
-  -webkit-text-stroke: 1px #000;
+  color: #f39c12; /* Orange color */
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  margin-bottom: 15px;
 }
 
 /* Rainbow Text Animation */
@@ -58,6 +57,7 @@ h6 {
   -webkit-text-fill-color: transparent;
   animation: rainbow 8s linear infinite;
   font-size: 2rem;
+  text-align: center;
 }
 
 @keyframes rainbow {
@@ -115,20 +115,34 @@ li a {
   font-weight: 600;
   letter-spacing: 1px;
   transition: background-color 0.3s ease, color 0.3s ease;
-  -webkit-text-stroke: 1px rgba(64, 64, 65, 0.7);
+  border: 1px solid transparent; /* Removed messy stroke */
+  border-radius: 5px; /* Added subtle rounded corners */
 }
 
 li a:hover {
   background-color: #5c5c5c;
   color: #f4f4f4;
+  border: 1px solid #ccc; /* Subtle border on hover */
+}
+
+/* List Items - Centering */
+#navUL,
+li {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
 }
 
 /* Footer and Miscellaneous */
 h3 {
   font-size: 1.875rem;
-  color: #ff5252;
+  color: #ff5252; /* Red */
   font-weight: 700;
   text-align: center;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
   padding: 10px;
+  margin-top: 20px;
 }
