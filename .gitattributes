@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 =======
+=======
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+>>>>>>> 05548fa (Added videos)
 * !text !filter !merge !diff
 >>>>>>> 53b953f (Initial commit)
