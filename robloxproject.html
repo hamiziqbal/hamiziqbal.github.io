@@ -1,56 +1,112 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel ="shortcut icon" href="favicon.png" type="image/x-icon">
-    <title>Hamiz's Portfolio - Roblox Project</title>
-    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Hamiz's Portfolio - Roblox VR Project</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <!-- Header and Navigation -->
+    <header>
+      <h1>Hamiz's Portfolio</h1>
+      <nav>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="aboutMe.html">About Me</a></li>
+          <li class="nav-item"><a href="projectDev.html">Project Development</a></li>
+          <li class="nav-item"><a href="projects.html">Final Project</a></li>
+          <li class="nav-item"><a href="robloxproject.html">Roblox VR Project</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <section class="roblox-project">
+        <h2>Roblox VR Project</h2>
+        <p>
+          For my Semester 2 project, I developed a Roblox Dungeon Crawler Game with VR compatibility. You spawn in a village, complete quests, battle monsters in dungeons, and collect loot as you progress.
+        </p>
+        <p>
+          Explore the project map here:
+          <a href="https://harmless-plow-db2.notion.site/Roblox-VR-Project-Timeline-18a3485dd48680e08a51c9e5d85c5a57" target="_blank" rel="noopener noreferrer">
+            Project Map
+          </a>
+        </p>
+        <figure>
+          <img src="village.png" alt="In-progress lobby map">
+          <figcaption>The lobby map (Work in Progress).</figcaption>
+        </figure>
+        <figure>
+          <img src="coinui.png" alt="Currency User Interface">
+          <figcaption>Currency UI with login time and item save functionality.</figcaption>
+        </figure>
+        <figure>
+          <img src="SavedData.png" alt="Inventory UI with cloned item frame">
+          <figcaption>Inventory UI showcasing item cloning on login (includes a free default sword).</figcaption>
+        </figure>
+        <figure>
+          <img src="inventory.png" alt="Game Inventory Interface">
+          <figcaption>Gameplay inventory system.</figcaption>
+        </figure>
+
+        <section class="video-section">
+          <h3>Project Videos</h3>
+          <p>Week 7 - Project Demo:</p>
+          <video controls>
+            <source src="projectvid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p>Week 8 - Item Equip/Unequip Feature:</p>
+          <figure>
+            <img src="unequip.png" alt="Interface for equipping and unequipping items">
+            <figcaption>Interface for equipping/unequipping items and random weapon generation.</figcaption>
+          </figure>
+          <p>Week 9 - Queue System Implementation:</p>
+          <figure>
+            <img src="unequip.png" alt="Queue system demonstration">
+            <figcaption>Queue system that teleports the player upon entry.</figcaption>
+          </figure>
+          <p>Week 10 - Combat System (No Animations):</p>
+          <video controls>
+            <source src="MVP Demo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p>Week 11 - Project Development Demo:</p>
+          <p>
+            Watch the development video:
+            <a href="https://drive.google.com/file/d/1ZzqUU-s05snPLfqDLiHECbHc3pDb1DnR/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              Link to Video
+            </a>
+          </p>
+          <p>Week 11 - VR Demo with Animations:</p>
+          <video controls>
+            <source src="DemoVid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </section>
+
+        <section class="map-selection">
+          <h3>Map Selection & Leveling</h3>
+          <figure>
+            <img src="mapselection.png" alt="Map selection UI">
+            <figcaption>Map selection for testing various maps.</figcaption>
+          </figure>
+          <figure>
+            <img src="level.png" alt="Level progression UI">
+            <figcaption>Experience and leveling interface during gameplay.</figcaption>
+          </figure>
+        </section>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Hamiz's Portfolio. All rights reserved.</p>
+    </footer>
+
     <script src="script.js"></script>
-    <h1>Hamiz's Portfolio</h1>
-    <ul id = "navUL">
-        <li id = "navLI"><a href = "index.html">Home</a></li>
-        <li id = "navLI"><a href = "aboutMe.html">About Me</a></li>
-        <li id = "navLI"><a href = "projectDev.html">Project Development</a></li>
-        <li id = "navLI"><a href = "projects.html">Final Project</a></li>
-        <li id = "navLI"><a href = "robloxproject.html">Roblox VR Project</a></li>
-
-    </ul>
-    <h6> My semester 2 project is a Roblox Dungeon Crawler Game that is compatible with VR. You spawn in a village with quests you must complete. The way to progress is to complete dungeons and kill monsters to get better loot. Become the best dungeon warrior to save your kingdom from the evil forces of [insert cool villain name]
-    </h6>
-    <h6><a href = "https://harmless-plow-db2.notion.site/Roblox-VR-Project-Timeline-18a3485dd48680e08a51c9e5d85c5a57">My project map</a></h6>
-    <img src = "village.png">
-    <h6> The lobby map WIP.</h6>
-    <img src = "coinui.png">
-    <h6> The currency UI. The currencies and log in times (inventory too) save </h6>
-    <img src = "SavedData.png">
-    <h6>Inventory UI that also clones an item frame and adds it to your inventory when you login. Free default sword too. (Week 6)</h6>
-    <img src = "inventory.png">
-    <h6>Project video (Week 7)</h6>
-    <video controls><source src="projectvid.mp4" type="video/mp4"></video>
-
-    <h6>Added equipping and unequipping items + button that lets you get a new weapon randomly. (Week 8)</h6>
-    <img src = "unequip.png">
-
-    <h6>Queue system is finished. Entering teleports the player to a new game (Week 9)</h6>
-    <img src = "unequip.png">
-
-    <h6>Project video, Added a combat system that saves your weapon data to another place [NO ANIMATIONS] (Week 10)</h6>
-    <video controls><source src="MVP Demo.mp4" type="video/mp4"></video>
-
-    <h6>Project Development Video (Week 11)</h6>    
-    <h6><a href = "https://drive.google.com/file/d/1ZzqUU-s05snPLfqDLiHECbHc3pDb1DnR/view?usp=sharing">Link to Video</a></h6>
-
-    <h6>Project Demo in VR Video [WITH ANIMATIONS] (Week 11)</h6>
-    <video controls><source src="DemoVid.mp4" type="video/mp4"></video>
-
-    <h6>Map Selection UI, and maps that will be available for testing</h6>
-    <img src = "mapselection.png">
-
-    <h6>Levels to select a map and exp to gain levels. This can be obtained by fighting monsters and completing dungeons (WIP)</h6>
-    <img src = "level.png">
-
   </body>
 </html>
