@@ -1,30 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel ="shortcut icon" href="favicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <title>Hamiz's Portfolio - Project Development</title>
-    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <script src="script.js"></script>
-    <h1>Hamiz's Portfolio</h1>
-    <ul id = "navUL">
-        <li id = "navLI"><a href = "index.html">Home</a></li>
-        <li id = "navLI"><a href = "aboutMe.html">About Me</a></li>
-        <li id = "navLI"><a href = "projectDev.html">Project Development</a></li>
-        <li id = "navLI"><a href = "projects.html">Final Project</a></li>
-        <li id = "navLI"><a href = "robloxproject.html">Roblox VR Project</a></li>
+    <!-- Header and Navigation -->
+    <header>
+      <h1>Hamiz's Portfolio</h1>
+      <nav>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="aboutMe.html">About Me</a></li>
+          <li class="nav-item"><a href="projectDev.html">Project Development</a></li>
+          <li class="nav-item"><a href="projects.html">Final Project</a></li>
+          <li class="nav-item"><a href="robloxproject.html">Roblox VR Project</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    </ul>
-    <h6> Behind the scenes: Project Development</h6>
-    <ul>
-        <li><a href = "https://drive.google.com/file/d/1q2HfzM4bO9IUvmR-IzQX7ONx0wpKnQAk/view?usp=drive_link">Video 1</a></h6>
-        <li><a href = "https://drive.google.com/file/d/16VY3qyhyjrz9y-7Bx1gW74lnKQ3x_ABk/view?usp=drive_link">Video 2</a></h6>
-        <li><a href = "https://drive.google.com/file/d/1824sW3PDcOqbCqSKf9J5hLdm-QN3u6m4/view?usp=drive_link">Video 3</a></h6>
-    </ul>
-    <h6> This was my first time using Unity and it was honestly not a welcoming platform to make games on. I didn't understand much about anything, it was very complicated. Many buttons that have no explanations and the way scripts work is confusing. I had to use many resources such as Youtube and Articles to learn these things and make the most of them.</h6>
-    <h6> My mentor: Teddy Chen (I Need Images)</h6>
+    <!-- Main Content -->
+    <main>
+      <section class="project-development">
+        <h2>Project Development</h2>
+        <p>Take a look behind the scenes of my projects:</p>
+        <ul>
+          <li><a href="https://drive.google.com/file/d/1q2HfzM4bO9IUvmR-IzQX7ONx0wpKnQAk/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Video 1</a></li>
+          <li><a href="https://drive.google.com/file/d/16VY3qyhyjrz9y-7Bx1gW74lnKQ3x_ABk/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Video 2</a></li>
+          <li><a href="https://drive.google.com/file/d/1824sW3PDcOqbCqSKf9J5hLdm-QN3u6m4/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Video 3</a></li>
+        </ul>
+        <p>This project was my first experience with Unity. Although the interface was complex and scripting was confusing at times, I used online tutorials and articles to navigate the learning curve.</p>
+      </section>
+
+      <section class="mentor">
+        <h2>My Mentor</h2>
+        <p>Special thanks to Teddy Chen for his invaluable guidance during this project.</p>
+        <!-- Optionally add an image of your mentor if available -->
+        <!-- <figure>
+             <img src="teddy-chen.png" alt="Teddy Chen">
+             <figcaption>Teddy Chen</figcaption>
+          </figure> -->
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Hamiz's Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
