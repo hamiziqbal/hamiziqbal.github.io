@@ -1,28 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel ="shortcut icon" href="favicon.png" type="image/x-icon">
-    <title>Hamiz's Portfolio - Projects</title>
-    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Hamiz's Portfolio - Final Project</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <script src="script.js"></script>
-    <h1>Hamiz's Portfolio</h1>
-    <ul id = "navUL">
-        <li id = "navLI"><a href = "index.html">Home</a></li>
-        <li id = "navLI"><a href = "aboutMe.html">About Me</a></li>
-        <li id = "navLI"><a href = "projectDev.html">Project Development</a></li>
-        <li id = "navLI"><a href = "projects.html">Final Project</a></li>
-        <li id = "navLI"><a href = "robloxproject.html">Roblox VR Project</a></li>
+    <!-- Header and Navigation -->
+    <header>
+      <h1>Hamiz's Portfolio</h1>
+      <nav>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="aboutMe.html">About Me</a></li>
+          <li class="nav-item"><a href="projectDev.html">Project Development</a></li>
+          <li class="nav-item"><a href="projects.html">Final Project</a></li>
+          <li class="nav-item"><a href="robloxproject.html">Roblox VR Project</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    </ul>
-    <h6><a href = "https://drive.google.com/file/d/1wJbJ2zwVq2YMogMycyfJMQEcA0SsqxHW/view?usp=sharing">Video of my Project</a></h6>
-    <h6> My project is a Unity Horror Game that is compatible with VR. It follows the player going around a dark forest in search of 8 pages. After each page is collected, the monster will get faster. Once you collect the 8 pages, you will win. If the monster gets to you, you will die and restart the game. Good luck!</h6>
-    <img src = "house.png">
-    <h6> A cool house I added as map decor.</h6>
-    <img src = "monster.png">
-    <h6> The monster that chases you. Doesn't have animations because unity is really weird with that.</h6>
+    <!-- Main Content -->
+    <main>
+      <section class="final-project">
+        <h2>Final Project</h2>
+        <p>
+          Watch the project overview video:
+          <a href="https://drive.google.com/file/d/1wJbJ2zwVq2YMogMycyfJMQEcA0SsqxHW/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            Project Video
+          </a>
+        </p>
+        <p>
+          My final project is a Unity-based horror game designed for VR. In the game, you navigate a dark forest in search of eight pages. With each page collected, the monster pursues you more aggressively. Collect all pages to win, but if you get caught, you’ll have to start over. Good luck!
+        </p>
+        <figure>
+          <img src="house.png" alt="House used as map decor">
+          <figcaption>A cool house added as map decor.</figcaption>
+        </figure>
+        <figure>
+          <img src="monster.png" alt="Monster character without animations">
+          <figcaption>The monster that chases you (currently without animations).</figcaption>
+        </figure>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Hamiz's Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
